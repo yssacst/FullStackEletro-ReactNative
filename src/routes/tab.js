@@ -10,7 +10,7 @@ const tab = createBottomTabNavigator()
 
 const Tab = () => {
     return (
-        <tab.Navigator initialRouteName="Produtos" tabBaroptions={{
+        <tab.Navigator initialRouteName="Login" tabBaroptions={{
             activeTintColor: 'red',
             inactiveTintColor: 'red',
             labelStyle: {fontSize: 30}

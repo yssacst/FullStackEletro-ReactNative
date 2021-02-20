@@ -1,8 +1,9 @@
 import React from 'react';
 import { View,StyleSheet, Text, Image, TouchableOpacity, Linking, TextInput, Button } from 'react-native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import { NavigationContainer } from '@react-navigation/native';
 
-const Login = (props) => {
+const Login = ({ navigation }) => {
     return (
             <View style={styles.container}>
                     <Image  style={styles.logo} source={require('../img/logo_branco.png')}/>
@@ -58,7 +59,7 @@ const styles = StyleSheet.create({
         fontWeight:'bold',
     },
     input:{
-        color: 'white',
+        color: 'red',
         height:50,
         backgroundColor:'white',
         borderRadius:5,
